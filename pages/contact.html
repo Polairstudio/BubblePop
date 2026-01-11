@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" >
+    <title>Bubblepop - Contact</title>
+    <link rel="stylesheet" href="../css/mystyle.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="login.html">Connection</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="bubble-contact">
+            <img class="bubble-contact" src="../images/bubble.png" >
+        </div>
+        <h2>Contactez-Nous</h2>
+        <p>Utilisez ce formulaire pour signaler un bug ou nous contacter pour toute question.</p>
+        <form class="contact-form" action="#" method="post">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="subject">Sujet :</label>
+            <select id="subject" name="subject" required>
+                <option value="">Sélectionnez un sujet</option>
+                <option value="bug">Signaler un Bug</option>
+                <option value="contact">Contact Général</option>
+                <option value="other">Autre</option>
+            </select>
+            
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit" class="button">Envoyer</button>
+            <a href="mailto:contact@bubblepop.com?subject=Contact%20Bubblepop" class="button"> Email</a>
+        </form>
+        <a href="https://www.behance.net/EliottBouillot" target="_blank" class="button faq-button">Voir Plus</a>
+    </main>
+    <footer>
+        <p>&copy; 2025 Bubblepop</p>
+    </footer>
+</body>
+</html>
