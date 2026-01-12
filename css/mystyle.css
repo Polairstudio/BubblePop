@@ -175,6 +175,7 @@ footer {
     height: auto;
     margin: auto;
 }
+
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
@@ -192,7 +193,7 @@ footer {
 }
 
 .button {
-     margin-top: 10px;
+    margin-top: 10px;
     padding: 10px 20px;
     background-color: #4CAF50;
     color: white;
@@ -201,7 +202,7 @@ footer {
     text-decoration: none;
     display: inline-block;
     border-radius: 5px;
-    width: 120px; 
+    width: 120px; /* Taille uniforme */
     text-align: center;
 }
 
@@ -209,10 +210,14 @@ footer {
     background-color: #45a049;
 }
 
-.faq-button {
-    display: block;
-    text-align: center;
-    margin: 20px auto;
+
+.button-container {
+    position: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    gap: 10px;
 }
 
 
